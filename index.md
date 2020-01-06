@@ -1,14 +1,21 @@
+---
+layout: default
+---
 ## Welcome to tlrgr
 
-### Markdown
+<div class="posts">
+  {% for post in site.posts %}
+  <article class="post">
 
-# Header 1
-## Header 2
-### Header 3
-*bold* _italic_
+    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+  
+    <div class="entry">
+      {{ post.excerpt }}
+    </div>
 
-```
-pwd 
-cd some_folder
-```
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+  </article>
+  {% endfor %}
+</div>
+
 link [github](https://tlrgr.github.com)

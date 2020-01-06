@@ -2,10 +2,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "tldr / Blog"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "tldr"
+description              : &description "blah"
 url                      : https://tdrgr.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tdrgr/tdrgr.github.io"
