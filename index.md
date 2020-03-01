@@ -7,7 +7,7 @@ layout: default
   <article class="post">
     <small>{{ post.date | date: "%-d %B %Y" }} · </small> 
     {% if post.tags %}
-      <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+      <small>tags: <em>{{ post.tags | join: "</em> - <em>" }}</em></small>
     {% endif %}
     <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
   
