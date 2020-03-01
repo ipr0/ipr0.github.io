@@ -1,3 +1,8 @@
+---
+layout: default
+title: Links
+permalink: /links/
+---
 ### golang
 
 -[Learn Go with Tests](https://quii.gitbook.io/learn-go-with-tests/) - absolutely love this book and examples
