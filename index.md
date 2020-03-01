@@ -1,9 +1,6 @@
 ---
 layout: default
 ---
-### _tdrgr_ - test driven red green refactor 
-
-Field notes on #linux #networking #go #python 
 
 <div class="posts">
   {% for post in site.posts %}
@@ -18,5 +15,5 @@ Field notes on #linux #networking #go #python
   {% endfor %}
 </div>
 
-link [github](https://tlrgr.github.com)
+link [github](https://tdrgr.github.com)
 
