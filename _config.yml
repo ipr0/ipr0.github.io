@@ -2,7 +2,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "tldr / Blog"
+title                    : "tldr"
 title_separator          : "-"
 name                     : &name "tldr"
 description              : &description "_tdrgr_ - test driven red green refactor"
