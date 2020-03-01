@@ -5,7 +5,7 @@ locale                   : "en-US"
 title                    : "tldr"
 title_separator          : "-"
 name                     : &name "tldr"
-description              : &description "_tdrgr_ - test driven red green refactor"
+description              : &description "tdrgr: test driven red green refactor"
 url                      : https://tdrgr.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "tdrgr/tdrgr.github.io"
