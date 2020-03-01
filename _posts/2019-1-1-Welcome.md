@@ -5,6 +5,6 @@ permalink: /hack-blog/
 categories:
  - Tech
 ---
-## Welcome 
+###### Blog template
 
 `jekyll` powered blog
