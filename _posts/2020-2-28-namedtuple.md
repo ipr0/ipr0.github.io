@@ -1,7 +1,7 @@
 ---
 layout: post
 title: namedtuple module
-tags: module
+tags: module python
 categories:
  - python
 ---
