@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-## Welcome to tlrgr
+### _tdrgr_ - test driven red green refactor 
+
+Some field notes on #networking #go #python #linux
 
 <div class="posts">
   {% for post in site.posts %}
@@ -19,3 +21,6 @@ layout: default
 </div>
 
 link [github](https://tlrgr.github.com)
+
+Fowler on [#TDD](https://martinfowler.com/bliki/TestDrivenDevelopment.html)
+[#pair_programming](https://martinfowler.com/articles/on-pair-programming.html)
