@@ -46,3 +46,15 @@ python3 server.py
 127.0.0.1 - - [05/Mar/2020 18:58:27] "GET /cake HTTP/1.1" 404 -
 127.0.0.1 - - [05/Mar/2020 18:58:31] "GET /cake/1 HTTP/1.1" 200 -
 ```
+`client.py`
+```python
+ import json
+ import urllib.request
+ 
+ api_url = 'http://localhost:5000'
+ endpoint = '/cake/<id>'
+ id = "1"
+ url = api_url + endpoint.replace('<id>', id)
+ with urllib.request.urlopen(url) as resp:
+    print(json.loads(resp.read()))
+```    
