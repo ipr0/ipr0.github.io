@@ -14,11 +14,11 @@ from flask import Flask, json
 cakes = {  
   "1": {
     "name": "Cheesecake",
-    "ingidients": ["cheese", "flour", "sugar"],
+    "ingredients": ["cheese", "flour", "sugar"],
   },
   "2": {
     "name": "Cherry Pie",
-    "ingidients": ["cherries", "flour", "sugar"],
+    "ingredients": ["cherries", "flour", "sugar"],
   },
 } 
  
